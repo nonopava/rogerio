@@ -1,0 +1,50 @@
+body {
+     background-image: url(backamor.jpg);
+     background-color: blanchedalmond;
+}
+
+audio {
+     float: left;
+     width: 15%;
+}
+
+
+ div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+    height: 500px;
+    margin-left: 25%
+   
+}
+
+h1 {
+    color: #FFF;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+     div {
+    width: 80%;
+    margin: 0 auto;
+}
+ img {
+      width: 90%;
+      height: 50%;
+      margin: 7%;  
+}
+     h1 {
+          font-size: 150%;   
+}
+     
+     audio {
+          width: 100%;  
+          float: none;
+     }
+}
